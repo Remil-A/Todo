@@ -1,24 +1,11 @@
-/* *,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 h1 {
-  text-transform: uppercase;
-  line-height: 1.25;
   text-align: center;
-  margin-bottom: 0.75rem;
 }
-.todo-list {
-  background: grey;
-  border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: all 3s linear;
-  padding: 2rem;
-} */
-/* form, .todo {
+#todo-list {
+  width: 500px;
+  margin: 60px auto;
+}
+form, .todo {
   border: 1px solid grey;
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -27,10 +14,6 @@ form {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-}
-.form-input {
-  display: flex;
-  justify-content: center;
 }
 form input {
   padding: 4px 8px;
@@ -83,4 +66,4 @@ input[type='text'] { font-size: 20px; font-family: monospace; }
 .todo-actions {
   display: flex;
   justify-content: space-between;
-} */
+}
